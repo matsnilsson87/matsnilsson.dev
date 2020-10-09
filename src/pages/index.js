@@ -63,8 +63,10 @@ const IndexPage = () => {
                 Hej på er, kul att ni hittat hit! Jag är en systemvetare med
                 utbildning från systemvenskapliga programmet på Örebro
                 Univesitet. Jag brinner för systemutvekling och just nu jobbar
-                jag mycket med javascript. Kilcka på ikonerna för att läsa er om
-                mig.
+                jag mycket med javascript. Jag sysslar även med nätverk servrar i mindre skala när tid finns. 
+                <br/><br/>
+                 {/* Kilcka på ikonerna för att läsa er om
+                mig. */}
               </p>
             </div>
             <div className='col-lg-8 mx-auto '></div>
@@ -85,8 +87,9 @@ const IndexPage = () => {
               <div className='featured-text text-center text-lg-left'>
                 <h4>matsnilsson.dev</h4>
                 <p className='text-black-50 mb-0'>
-                  Denna portfoliosida i byggd med <a href="http://www.gatsbyjs.com">Gatsby</a> med temat <a href="https://github.com/anubhavsrivastava">Greyscale.</a> Gatsby är ett react baserat open source framework för webbsidor och appar. 
-                  Sidan är hostad på githup pages. Jag har även en domänen <a href="http://www.nilsson.red">nilsson.red</a> som jag har och testar olika projekt på och ibland är den helt vilande. Kika in och se om det händer nå kul!
+                  Denna portfoliosida är byggd med <a href="http://www.gatsbyjs.com" target="_blank" rel="noreferrer">Gatsby</a> med temat <a href="https://github.com/anubhavsrivastava" target="_blank" rel="noreferrer">Greyscale.</a> Gatsby är ett react baserat open source framework för webbsidor och appar. 
+                  <br/><br/>
+                  Jag har även domänen <a href="http://www.nilsson.red" target="_blank" rel="noreferrer">nilsson.red</a> som pekar mot en egen linuxserver där jag testar lite olika projekt. Kika in och se om det händer nå kul!
                 </p>
               </div>
             </div>
@@ -107,7 +110,7 @@ const IndexPage = () => {
                       Newsab är en liten webbyrå som jag äger och driver
                       tillsammans med min vän och kollega Carl-Fredrik. Titta
                       gärna in hos oss!<br></br>
-                      <a href='https://newsab.se' target='_blank'>
+                      <a href='https://newsab.se' target="_blank" rel="noreferrer">
                         www.newsab.se
                       </a>
                     </p>
@@ -133,7 +136,7 @@ const IndexPage = () => {
                       bli en liten samlingsplats för utvecklare.<br></br>
                       <a
                         href='https://github.com/matsnilsson87'
-                        target='_blank'
+                        target="_blank" rel="noreferrer"
                       >
                         Github
                       </a>
