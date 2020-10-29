@@ -63,7 +63,7 @@ const IndexPage = () => {
                 Hej på er, kul att ni hittat hit! Jag är en systemvetare med
                 utbildning från systemvenskapliga programmet på Örebro
                 Univesitet. Jag brinner för systemutvekling och just nu jobbar
-                jag mycket med javascript. Jag sysslar även med nätverk servrar i mindre skala när tid finns. 
+                jag mycket med javascript. Jag sysslar även med nätverk och servrar i mindre skala när tid finns. 
                 <br/><br/>
                  {/* Kilcka på ikonerna för att läsa er om
                 mig. */}
