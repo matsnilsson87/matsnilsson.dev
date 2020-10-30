@@ -135,7 +135,7 @@ const IndexPage = () => {
                       med mongoDB express react & nodeJS. Tanken är att det ska
                       bli en liten samlingsplats för utvecklare.<br></br>
                       <a
-                        href='https://github.com/matsnilsson87'
+                        href='https://github.com/matsnilsson87/oru21'
                         target="_blank" rel="noreferrer"
                       >
                         Github
