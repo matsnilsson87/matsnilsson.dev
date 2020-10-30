@@ -60,12 +60,12 @@ const IndexPage = () => {
             <div className='col-lg-8 mx-auto'>
               <h2 className='text-white mb-4'>Mats Nilsson</h2>
               <p className='text-white-50'>
-                Hej på er, kul att ni hittat hit! Jag är en systemvetare med
+                Hej på dig, kul att du hittat hit! Jag är en systemvetare med
                 utbildning från systemvenskapliga programmet på Örebro
-                Univesitet. Jag brinner för systemutvekling och just nu jobbar
-                jag mycket med javascript. Jag sysslar även med nätverk och servrar i mindre skala när tid finns. 
+                Universitet. Jag brinner för systemutveckling och just nu arbetar
+                jag mycket med javascript och då främst react. Jag sysslar även med nätverk och servrar i mindre skala när tid finns.
                 <br/><br/>
-                 {/* Kilcka på ikonerna för att läsa er om
+                 {/* Kilcka på ikonerna för att läsa mer om
                 mig. */}
               </p>
             </div>
