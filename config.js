@@ -37,5 +37,5 @@ module.exports = {
   ],
   email: 'kontakt@matsnilsson.dev',
   phone: '0046 73 545 15 87',
-  address: 'Köping, Sweden',
+  address: 'Köping, Sverige',
 };
