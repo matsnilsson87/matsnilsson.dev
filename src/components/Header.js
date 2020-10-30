@@ -19,10 +19,11 @@ export default class Header extends Component {
         this.setState({ visibilityClass: 'navbar-shrink' });
       }
     } else {
+      if (window.pageYOffset > 300) {
       if (visibilityClass === 'navbar-shrink') {
         this.setState({ visibilityClass: '' });
       }
-    }
+    }}
   };
 
   componentDidMount() {
@@ -40,9 +41,11 @@ export default class Header extends Component {
         id='mainNav'
       >
         <div className='container'>
-          <a className='navbar-brand' href='#page-top'>
-            {config.siteTitle}
-          </a>
+          <Scroll type='id' element='page-top'>
+              <a href='#page-top' className='navbar-brand'>
+              {config.siteTitle}
+              </a>
+            </Scroll>
           <button
             onClick={(_) => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${

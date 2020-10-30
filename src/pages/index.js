@@ -33,7 +33,7 @@ const IndexPage = () => {
     <Layout>
       <Header />
 
-      <header className='masthead'>
+      <header className='masthead' id="page-top">
         <div className='container d-flex h-100 align-items-center'>
           <div className='mx-auto text-center'>
             <h1 className='mx-auto my-0 text-uppercase'>{config.heading}</h1>
