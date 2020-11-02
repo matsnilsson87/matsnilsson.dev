@@ -18,12 +18,11 @@ export default class Header extends Component {
       if (visibilityClass !== 'navbar-shrink') {
         this.setState({ visibilityClass: 'navbar-shrink' });
       }
-    } else {
-      if (window.pageYOffset > 300) {
-      if (visibilityClass === 'navbar-shrink') {
+    } else  {
+      if (window.pageYOffset > 1000 && visibilityClass === 'navbar-shrink') {
         this.setState({ visibilityClass: '' });
       }
-    }}
+    }
   };
 
   componentDidMount() {

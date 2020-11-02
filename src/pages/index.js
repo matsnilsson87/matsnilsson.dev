@@ -8,7 +8,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
-import Abouts from '../components/Abouts';
+import About from '../components/About';
 import Header from '../components/Header';
 
 import newsab from '../assets/images/newsab.png';
@@ -64,15 +64,13 @@ const IndexPage = () => {
                 utbildning från systemvenskapliga programmet på Örebro
                 Universitet. Jag brinner för systemutveckling och just nu arbetar
                 jag mycket med javascript och då främst react. Jag sysslar även med nätverk och servrar i mindre skala när tid finns.
-                <br/><br/>
-                 {/* Kilcka på ikonerna för att läsa mer om
-                mig. */}
+                
               </p>
+            
+            <p className='text-white-50'>
+            <About />
+            </p>
             </div>
-            <div className='col-lg-8 mx-auto '></div>
-            <p className='text-white-50'></p>
-
-            <Abouts />
           </div>
         </div>
       </section>

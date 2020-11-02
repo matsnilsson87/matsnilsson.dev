@@ -1,11 +1,11 @@
 #mainNav {
   min-height: 56px;
-  background-color: $white;
+  background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 1));
   .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: $primary;
-    border: 1px solid $primary;
+    color: $black;
+    border: 1px solid $black;
     &:focus {
       outline: none;
     }
@@ -51,7 +51,10 @@
       }
     }
     &.navbar-shrink {
-      background-color: $white;
+      background: -webkit-linear-gradient(
+        fade-out(white, 0.1),
+        fade-out(white, 1)
+      );
       .navbar-brand {
         color: $black;
       }
