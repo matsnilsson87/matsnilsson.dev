@@ -10,7 +10,7 @@ module.exports = {
 
   heading: 'Mats Nilsson',
   subHeading:
-    'En junior systemutvecklare med intresse för såväl back-end som front-end. ',
+    'webb- och systemutvecklare ',
 
   // social
   socialLinks: [

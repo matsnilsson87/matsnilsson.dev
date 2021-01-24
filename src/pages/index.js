@@ -15,6 +15,10 @@ import newsab from '../assets/images/newsab.png';
 import oru21 from '../assets/images/oru21.png';
 import bgMaster from '../assets/images/bg-masthead.jpg';
 
+const d = new Date;
+const y = d.getFullYear();
+const age = y - 1987;
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query Images {
@@ -60,11 +64,11 @@ const IndexPage = () => {
             <div className='col-lg-8 mx-auto'>
               <h2 className='text-white mb-4'>Mats Nilsson</h2>
               <p className='text-white-50'>
-                Hej på dig, kul att du hittat hit! Jag är en systemvetare med
-                utbildning från systemvenskapliga programmet på Örebro
-                Universitet. Jag brinner för systemutveckling och just nu arbetar
-                jag mycket med javascript och då främst react. Jag sysslar även med nätverk och servrar i mindre skala när tid finns.
-                
+                Hej på dig, kul att du hittat hit! Jag är en {age}-årig utvecklare som snart avslutar mina studier vid
+                systemvenskapliga programmet på Örebro
+                universitet. Vid sidan av mina studier driver jag en liten webbyrå tillsammans med en kamrat. 
+                Blir det lite tid över sysslar jag gärna med nätverk och servrar i mindre skala. <br/>
+                Läser mer om mig genom att klicka på ikonerna här under.  
               </p>
             
             <p className='text-white-50'>
@@ -85,7 +89,7 @@ const IndexPage = () => {
               <div className='featured-text text-center text-lg-left'>
                 <h4>matsnilsson.dev</h4>
                 <p className='text-black-50 mb-0'>
-                  Denna portfoliosida är byggd med <a href="http://www.gatsbyjs.com" target="_blank" rel="noreferrer">Gatsby</a> med temat <a href="https://github.com/anubhavsrivastava" target="_blank" rel="noreferrer">Greyscale.</a> Gatsby är ett react baserat open source framework för webbsidor och appar. 
+                  Den här sidan är byggd med <a href="http://www.gatsbyjs.com" target="_blank" rel="noreferrer">Gatsby</a> och temat <a href="https://github.com/anubhavsrivastava" target="_blank" rel="noreferrer">Greyscale.</a> Gatsby är ett react-baserat open source framework för webbsidor och appar. 
                   <br/><br/>
                   Jag har även domänen <a href="http://www.nilsson.red" target="_blank" rel="noreferrer">nilsson.red</a> som pekar mot en egen linuxserver där jag testar lite olika projekt. Kika in och se om det händer nå kul!
                 </p>
@@ -133,7 +137,7 @@ const IndexPage = () => {
                       med mongoDB express react & nodeJS. Tanken är att det ska
                       bli en liten samlingsplats för utvecklare.<br></br>
                       <a
-                        href='https://github.com/matsnilsson87/oru21'
+                        href='https://github.com/matsnilsson87/'
                         target="_blank" rel="noreferrer"
                       >
                         Github

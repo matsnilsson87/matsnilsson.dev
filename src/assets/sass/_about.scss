@@ -9,16 +9,19 @@
   p {
     margin-bottom: 4rem;
   }
-  .img-rotate {
-    -webkit-transition: -webkit-transform 1s ease-in-out;
-    transition: transform 1s ease-in-out;
-  }
-  .img-rotate:hover {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+  // .img-rotate {
+  //   -webkit-transition: -webkit-transform 1s ease-in-out;
+  //   transition: transform 1s ease-in-out;
+  // }
+  // .img-rotate:hover {
+  //   -webkit-transform: rotate(360deg);
+  //   transform: rotate(360deg);
+  // }
   .aboutImg {
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .aboutImg:hover {
+    cursor: pointer;
   }
 }
