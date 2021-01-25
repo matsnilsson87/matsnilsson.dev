@@ -12,7 +12,7 @@ import family from '../assets/images/icons8-family.png';
 
 
 export default function About() {
-  const abouts = [<AboutCode />, <AboutSchool />,<AboutWork />, <AboutFamily />];
+  //const abouts = [<AboutCode />, <AboutSchool />,<AboutWork />, <AboutFamily />];
 
   const [myAbout, setMyAbout] = useState();
 
@@ -20,13 +20,13 @@ export default function About() {
   return (
     
      <div> 
-            <img className='aboutImg' src={code} onClick={() => setMyAbout(AboutCode) }/>
+            <img className='aboutImg' alt='' src={code} onClick={() => setMyAbout(AboutCode) }/>
             
-            <img className='aboutImg' src={school}  onClick={() => setMyAbout(AboutSchool)}/>
+            <img className='aboutImg' alt='' src={school}  onClick={() => setMyAbout(AboutSchool)}/>
 
-            <img className='aboutImg' src={work}  onClick={() => setMyAbout(AboutWork)}/>
+            <img className='aboutImg' alt='' src={work}  onClick={() => setMyAbout(AboutWork)}/>
              
-            <img className='aboutImg' src={family} onClick={() => setMyAbout(AboutFamily)}/>
+            <img className='aboutImg' alt='' src={family} onClick={() => setMyAbout(AboutFamily)}/>
             
             <br/>
             <br/>

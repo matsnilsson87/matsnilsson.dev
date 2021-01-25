@@ -3,7 +3,7 @@ import config from '../../config';
 
 export default function SocialLinks() {
   return (
-    <section className="contact-section bg-black">
+    <section className="contact-section bg-black" id='contact'>
       <div className="container">
         <div className="row">
           <div className="col-md-4 mb-3 mb-md-0">
@@ -36,7 +36,7 @@ export default function SocialLinks() {
                 <i className="fas fa-mobile-alt text-primary mb-2"></i>
                 <h4 className="text-uppercase m-0">Phone</h4>
                 <hr className="my-4" />
-                <div className="small text-black-50">{config.phone}</div>
+                <div className="small text-black-50"><a href='tel:0046735451587'>{config.phone}</a></div>
               </div>
             </div>
           </div>
