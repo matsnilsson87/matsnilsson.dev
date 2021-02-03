@@ -7,14 +7,14 @@ export default function AboutCode() {
       <h3>Programmering</h3>
       <br/>
      När jag utvecklar tycker jag om att ha ett fullstackperspektiv, 
-     att ha koll på hur det fungerar genom hela kedjan från HTML &  CSS till databasanrop & serverkonfiguration. <br/>  <br/>
+     att ha koll på hur det fungerar genom hela kedjan från HTML & CSS till databasanrop & serverkonfiguration. <br/>  <br/>
      Jag har grundläggande kunskaper inom:
      <br/>
      
      <dl >
      <dt>Java</dt>
       <dt>Javascript</dt> 
-      <dd>-  nodeJS, express, react, gatsbyJS</dd>
+      <dd>- nodeJS, express, react, gatsbyJS</dd>
       <dt>C#</dt> 
        <dd>- asp.net core</dd> 
        <dt>Databas</dt> 

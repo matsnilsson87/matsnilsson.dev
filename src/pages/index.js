@@ -94,7 +94,7 @@ const IndexPage = () => {
                   Gatsby är ett react-baserat open source framework för webbsidor och appar. 
                   <br/><br/>
                   Jag har även domänen <a href="http://www.nilsson.red" target="_blank" rel="noreferrer">nilsson.red</a> 
-                  som pekar mot en egen linuxserver där jag testar lite olika projekt. 
+                  som pekar mot en egen Linux server där jag testar lite olika projekt. 
                   Kika in och se om det händer nå kul!
                   
                   
@@ -141,7 +141,7 @@ const IndexPage = () => {
                     <p className='mb-0 text-white-50'>
                     Under vårterminen -21 genomför jag och en studiekamrat ett systemutvecklingsprojekt. 
                     Projektet sker på uppdrag och tillsammans med Combitech AB. Vi ingår i en liten grupp 
-                    som ska utveckla ett system för protabel antenmätning. Projektet innefattar kravinsamling, design, 
+                    som ska utveckla ett system för portabel antennmätning. Projektet innefattar kravinsamling, design, 
                     utveckling & dokumentation. Följ gärna arbete på vår blogg.  <br></br>
                       <a
                         href='https://nilssonenerholm.se'
