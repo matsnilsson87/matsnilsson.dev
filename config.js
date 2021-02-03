@@ -9,8 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
 
   heading: 'Mats Nilsson',
-  subHeading:
-    'webb- och systemutvecklare ',
+  subHeading: 'webb- och systemutvecklare ',
 
   // social
   socialLinks: [
@@ -36,6 +35,6 @@ module.exports = {
     },
   ],
   email: 'kontakt@matsnilsson.dev',
-  phone: '0046 73 545 15 87',
+  phone: '073 545 15 87',
   address: 'Köping, Sverige',
 };
